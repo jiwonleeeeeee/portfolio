@@ -1,0 +1,18 @@
+/* header css */
+.hlogo {
+    width: 60px;
+    height: auto;
+}
+
+ul li {
+    padding: 0 25px;
+}
+
+.btn-icon {
+    border: none;
+    background-color: transparent;
+}
+
+.nav-link {
+    font-size: 20px;
+}
