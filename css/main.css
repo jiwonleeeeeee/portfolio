@@ -17,6 +17,22 @@ ul li {
     font-size: 25px;
 }
 
+/* main css */
+.img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-equal {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio while filling the container */
+}
+
+.img-equal-height {
+    height: 225px; /* Adjust the height as needed */
+}
+
 /* footer css */
 .flogo {
     width: 100px;
