@@ -1,3 +1,8 @@
-.logo {
-    width: 10%;
+.hlogo {
+    width: 60px;
+    height: auto;
+}
+
+ul li {
+    padding: 0 25px;
 }

@@ -10,19 +10,32 @@
 </head>
 <body>
     <header>
-        <div class="nav">
-            <nav>
-                <ul class="list-group item list-group-horizontal">
-                    <li><img src="images/logo.jpg" alt="logoimage" class="logo"></li>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container d-flex align-items-center">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.jpg" alt="logoimage" class="hlogo">
+                </a>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
                 </ul>
-                <input type="text" name="search" id="search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </nav>
-        </div>
+                <div class="ml-auto">
+                    <form class="form-inline">
+                        <input class="form-control mr-2" type="text" name="search" id="search">
+                        <i class="fas fa-search"></i>
+                    </form>
+                </div>
+            </div>
+        </nav>
     </header>
+    <hr class="m-0">
     <main>
         <img src="images/mainbanner.jpg" alt="mainbannerimage" class="w-100">
         <div class="container text-center">
