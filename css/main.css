@@ -1,6 +1,6 @@
 /* header css */
 .hlogo {
-    width: 60px;
+    width: 100px;
     height: auto;
 }
 
@@ -14,5 +14,16 @@ ul li {
 }
 
 .nav-link {
-    font-size: 20px;
+    font-size: 25px;
+}
+
+/* footer css */
+.flogo {
+    width: 100px;
+    height: auto;
+}
+
+footer {
+    color: white;
+    background-color: black;
 }

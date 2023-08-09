@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
-            <div class="container d-flex align-items-center">
+            <div class="container-fluid d-flex align-items-center">
                 <a class="navbar-brand" href="index.html">
                     <img src="images/logo.jpg" alt="logoimage" class="hlogo">
                 </a>
@@ -57,21 +57,27 @@
             </div>
         </div>
     </main>
-    <footer class="bg-dark">
-        <img src="images/logo.jpg" alt="logoimage" class="logo">
-        <div class="container">
-            <div class="row">
-                <ul class="col list-group item list-group-horizontal">
-                    <li>Privacy Policy</li>
-                    <li>Terms & Conditions</li>
-                    <li>Testimonials</li>
-                </ul>
-                <p>© Copyright 2023</p>
-                <div class="col social">
-                    <i class="fa-brands fa-square-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                </div>    
+    <footer class="bg-black p-3">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-3">
+                    <img src="images/logo.jpg" alt="logoimage" class="flogo">
+                </div>
+                <div class="col-md-6 text-center">
+                    <ul class="list-unstyled list-inline mb-0">
+                        <li class="list-inline-item">Privacy Policy</li>
+                        <li class="list-inline-item">Terms & Conditions</li>
+                        <li class="list-inline-item">Testimonials</li>
+                    </ul>
+                    <p class="mt-2 mb-0">© Copyright 2023</p>
+                </div>
+                <div class="col-md-3 d-flex justify-content-end">
+                    <div class="social mt-2">
+                        <i class="fab fa-facebook-square m-3 fa-2x"></i>
+                        <i class="fab fa-twitter m-3 fa-2x"></i>
+                        <i class="fab fa-instagram m-3 fa-2x"></i>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
