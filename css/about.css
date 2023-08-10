@@ -31,3 +31,34 @@ footer {
     color: white;
     background-color: black;
 }
+
+/* mobile ver */
+@media (max-width: 960px) {
+    header {
+        background-color: #FF5C00;
+    }
+
+    .hlogo {
+        display: none;
+    }
+
+    .navbar-toggler-icon {
+        display: block;
+    }
+
+    .navbar-collapse {
+        display: none;
+    }
+
+    .btn-icon {
+        display: block;
+    }
+
+    .form-inline .form-control {
+        display: none;
+    }
+
+    .navbar .navbar-toggler {
+        border: none;
+    }
+}
