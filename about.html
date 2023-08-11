@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/about.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+    <header role="banner">
+        <nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
             <div class="container-fluid d-flex align-items-center">
                 <a class="navbar-brand hlogo" href="index.html">
                     <img src="images/logo.jpg" alt="logoimage" class="hlogo">
@@ -21,20 +21,20 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="index.html">HOME</a>
+                            <a class="nav-link text-dark" href="index.html" role="menuitem">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="about.html">ABOUT</a>
+                            <a class="nav-link text-dark" href="about.html" role="menuitem">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="contact.html">CONTACT</a>
+                            <a class="nav-link text-dark" href="contact.html" role="menuitem">CONTACT</a>
                         </li>
                     </ul>
                 </div>
                 <div class="ml-auto">
-                    <form class="form-inline d-flex">
-                        <input class="form-control mr-2" type="text" name="search" id="search">
-                        <button class="btn btn-icon bg-transparent border-0">
+                    <form class="form-inline d-flex" role="form">
+                        <input class="form-control mr-2" type="text" name="search" id="search" role="searchbox">
+                        <button class="btn btn-icon bg-transparent border-0" role="button">
                             <i class="fas fa-search text-dark"></i>
                         </button>
                     </form>
@@ -43,7 +43,7 @@
         </nav>
     </header>
     <hr class="m-0">
-    <main>
+    <main role="main">
         <div class="m-5 about">
             <h2>About Us</h2>
             <p>We are truly passionate about creating travel experiences that cater to your story. Our ultimate goal is to inspire and empower you to explore the world uncover treasures and embrace cultures all while prioritizing your safety and comfort. Our team of planners goes above and beyond to curate personalized itineraries that go off the beaten path and surpass expectations. We strongly believe in travel practices aiming to make an impact, on the places we visit and the communities we encounter. So come join us on a journey, where we'll create memories together along the way.</p>
@@ -95,7 +95,7 @@
     </main>
     <br>
     <p class="text-end text-decoration-underline m-5"><a href="#top" class="text-black">&uarr; Go to Top &uarr;</a></p>
-    <footer class="bg-black p-3">
+    <footer class="bg-black p-3" role="contentinfo">
         <div class="container-fluid">
             <div class="row align-items-center flex-md-row">
                 <div class="col text-start">

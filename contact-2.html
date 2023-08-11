@@ -9,8 +9,8 @@
     <title>Portfolio-Contact</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+    <header role="banner">
+        <nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
             <div class="container-fluid d-flex align-items-center">
                 <a class="navbar-brand hlogo" href="index.html">
                     <img src="images/logo.jpg" alt="logoimage" class="hlogo">
@@ -21,20 +21,20 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="index.html">HOME</a>
+                            <a class="nav-link text-dark" href="index.html" role="menuitem">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="about.html">ABOUT</a>
+                            <a class="nav-link text-dark" href="about.html" role="menuitem">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="contact.html">CONTACT</a>
+                            <a class="nav-link text-dark" href="contact.html" role="menuitem">CONTACT</a>
                         </li>
                     </ul>
                 </div>
                 <div class="ml-auto">
-                    <form class="form-inline d-flex">
-                        <input class="form-control mr-2" type="text" name="search" id="search">
-                        <button class="btn btn-icon bg-transparent border-0">
+                    <form class="form-inline d-flex" role="form">
+                        <input class="form-control mr-2" type="text" name="search" id="search" role="searchbox">
+                        <button class="btn btn-icon bg-transparent border-0" role="button">
                             <i class="fas fa-search text-dark"></i>
                         </button>
                     </form>
@@ -43,7 +43,7 @@
         </nav>
     </header>
     <hr class="m-0">
-    <main m-5>
+    <main class="m-5" role="main">
         <h1>Contact Us</h1>
         <p>Your message has been sent. We will contact you shortly.
             Thank you for contacting us!
@@ -51,7 +51,7 @@
         </p>
     </main>
     <p class="text-decoration-underline m-5"><a href="index.html" class="text-dark">Go Back to Home</a></p>
-    <footer class="bg-black p-3">
+    <footer class="bg-black p-3" role="contentinfo">
         <div class="container-fluid">
             <div class="row align-items-center flex-md-row">
                 <div class="col text-start">
